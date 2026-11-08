@@ -1,0 +1,11 @@
+export default function CRTOverlay() {
+  return (
+    <div
+      className="pointer-events-none fixed inset-0 z-50"
+      style={{
+        background:
+          "repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.13) 2px, rgba(0,0,0,0.13) 4px)",
+      }}
+    />
+  );
+}

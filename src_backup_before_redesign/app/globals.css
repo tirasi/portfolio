@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+* {
+  image-rendering: pixelated;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0200;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B0000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4500;
+}
